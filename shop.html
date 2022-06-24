@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="">
+
+    <title>Good Hope Dessert</title>
+    <link rel="stylesheet" type="text/css" href="./styles/shop.css">
+    <link rel="stylesheet" type="text/css" href="./styles/main.css">
+    <script src="./scripts/menu.js"></script>
+
+</head>
+<body>
+    <header>
+        <button class="mode" type="mode"><img id="buttonImg" src="./styles/images/icon/modebutton-01.png"></button>
+        <div class="topnav">
+            <a></a>
+            <div id="myLinks">
+              <a href="index.html">Home</a>
+              <a href="about.html">About</a>
+              <a href="shop.html">Shop</a>
+              <a href="workshop.html">Workshop</a>
+              <a href="recipes.html">Recipes</a>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+            </a>
+        </div>
+        <a href="index.html"><img class="cover" src="./styles/images/cover/logobk-01.png" alt="cover photo" ></a>
+    </header>
+    <nav>
+      <a id="navtext" href="index.html">Home</a>
+        <a id="navtext" href="about.html">About</a>
+        <a id="navtext" href="shop.html">Shop</a>
+        <a id="navtext" href="workshop.html">Workshop</a>
+        <a id="navtext" href="recipes.html">Recipes</a>
+    </nav>
+    <main id="mainMode">
+        <div id="title">
+            <h1>Products</h1>
+        </div>
+
+        <section id="products" >
+          <table>
+            <tr>
+              <th>Products</th>
+              <th>Detail & Price</th>
+              <th id="checkoutFrom">Shopping Cart</th>
+            </tr>
+            <tr>
+              <td>
+                <div>
+                  <a target="_blank" href="./styles/images/shop/item1.jpeg">
+                    <img src="./styles/images/shop/item1.jpeg" alt="Hot Cocoa Bomb 4 pack" >
+                  </a>
+                </div>
+              </td>
+              <td>
+                <h3>Item1</h3>
+                <div class="desc">$ <span class="price" value="13">32.00</span><br>Hot Cocoa Bomb 4 pack</div>
+              </td>
+              <td id="checkoutFrom" rowspan="9" >
+                <section>
+                  <form  action="" method="post" onsubmit="return validateForm();">
+                    <fieldset>
+                      <div id="items">
+                        <label for="item1">ITEM 1:</label>
+                        <select name="item1" id="item1">
+                          <option value="0">0</option><option value="1">1</option><option value="2">2</option><option value="3">3</option>
+                          <option value="4">4</option><option value="5">5</option><option value="6">6</option>
+                          <option value="7">7</option><option value="8">8</option>
+                        </select><br><br>
+                        <label for="item1">ITEM 2:</label>
+                        <select name="item2" id="item2">
+                          <option value="0">0</option><option value="1">1</option><option value="2">2</option><option value="3">3</option>
+                          <option value="4">4</option><option value="5">5</option><option value="6">6</option>
+                          <option value="7">7</option><option value="8">8</option>
+                        </select><br><br>
+                        <label for="item1">ITEM 3:</label>
+                        <select name="item3" id="item3">
+                          <option value="0">0</option><option value="1">1</option><option value="2">2</option><option value="3">3</option>
+                          <option value="4">4</option><option value="5">5</option><option value="6">6</option>
+                          <option value="7">7</option><option value="8">8</option>
+                        </select><br><br>
+                        <label for="item1">ITEM 4:</label>
+                        <select name="item4" id="item4">
+                          <option value="0">0</option><option value="1">1</option><option value="2">2</option><option value="3">3</option>
+                          <option value="4">4</option><option value="5">5</option><option value="6">6</option>
+                          <option value="7">7</option><option value="8">8</option>
+                        </select><br><br>
+                        <label for="item1">ITEM 5:</label>
+                        <select name="item5" id="item5">
+                          <option value="0">0</option><option value="1">1</option><option value="2">2</option><option value="3">3</option>
+                          <option value="4">4</option><option value="5">5</option><option value="6">6</option>
+                          <option value="7">7</option><option value="8">8</option>
+                        </select><br><br>
+                        <label for="item1">ITEM 6:</label>
+                        <select name="item6" id="item6">
+                          <option value="0">0</option><option value="1">1</option><option value="2">2</option><option value="3">3</option>
+                          <option value="4">4</option><option value="5">5</option><option value="6">6</option>
+                          <option value="7">7</option><option value="8">8</option>
+                        </select><br><br>
+                        <label for="item1">ITEM 7:</label>
+                        <select name="item7" id="item7">
+                          <option value="0">0</option><option value="1">1</option><option value="2">2</option><option value="3">3</option>
+                          <option value="4">4</option><option value="5">5</option><option value="6">6</option>
+                          <option value="7">7</option><option value="8">8</option>
+                        </select>
+                      </div>
+                    </fieldset>
+                    <fieldset id="totalFd">
+                      <label for="total">TOTAL PRICE</label>
+                      <br>
+                      <input class="total" name="total id=total" value="0" readonly>
+                    </fieldset>
+                    <span class="alert" id="itemNumErr"></span><br>
+                    <input class="submit" type="submit" value="Check Out">
+                  </form>
+                </section>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div>
+                  <a target="_blank" href="./styles/images/shop/item2.jpeg">
+                    <img src="./styles/images/shop/item2.jpeg" alt="Dunkaroos" >
+                  </a>
+                </div>
+              </td>
+              <td>
+                <h3>Item2</h3>
+                <div class="desc">$ <span class="price">10.00</span><br>Dunkaroos</div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div>
+                  <a target="_blank" href="./styles/images/shop/item3.jpeg">
+                    <img src="./styles/images/shop/item3.jpeg" alt="Edible cookie dough - double chocolate" >
+                  </a>
+                </div>
+              </td>
+              <td>
+                <h3>Item3</h3>
+                <div class="desc">$ <span class="price">10.00</span><br>Edible cookie dough - double chocolate</div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div>
+                  <a target="_blank" href="./styles/images/shop/item4.jpg">
+                    <img src="./styles/images/shop/item4.jpg" alt="Carrot Cake" >
+                  </a>
+                </div>
+              </td>
+              <td>
+                <h3>Item4</h3>
+                <div class="desc">$ <span class="price">34.00</span><br>Carrot Cake</div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div>
+                  <a target="_blank" href="./styles/images/shop/item5.jpg">
+                    <img src="./styles/images/shop/item5.jpg" alt="Mountains">
+                  </a>
+                </div>
+              </td>
+              <td>
+                <h3>Item5</h3>
+                <div class="desc">$ <span class="price">34.00</span><br>FRENCH CHOCOLATE MOUSSE CAKE</div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div>
+                  <a target="_blank" href="./styles/images/shop/item6.jpg">
+                    <img src="./styles/images/shop/item6.jpg" alt="HOLIDAY COOKIE BOX">
+                  </a>
+                </div>
+              </td>
+              <td>
+                <h3>Item6</h3>
+                <div class="desc">$ <span class="price">18.00</span><br>HOLIDAY COOKIE BOX</div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div>
+                  <a target="_blank" href="./styles/images/shop/item7.jpg">
+                    <img src="./styles/images/shop/item7.jpg" alt="HOLIDAY SQUARE BOX">
+                  </a>
+                </div>
+              </td>
+
+              <td>
+                <h3>Item7</h3>
+                <div class="desc">$ <span class="price">18.00</span><br>HOLIDAY SQUARE BOX</div>
+              </td>
+            </tr>
+          </table>
+        </section>
+    </main>
+    <footer>
+      <div id="socialDiv">
+          <div id="social-icons">
+              <a href="https://www.youtube.com/channel/UCFq83dAKJXiSjx-idIxQRyw" >
+                  <img src="./styles/images/icon/Youtube.png" alt="Youtube" id="Sicon">
+              </a>
+              <a href="https://www.instagram.com/daniel_kwan/" >
+                  <img src="./styles/images/icon/Ins.png" alt="Instagram" id="Sicon">
+              </a>
+              <a href="https://wa.me/85261982152" >
+                  <img src="./styles/images/icon/Whatsapp.png" alt="Whatsapp" id="Sicon">
+              </a>
+              <a href="https://www.facebook.com/DanielxKwan/" >
+                  <img src="./styles/images/icon/Facebook.png" alt="Facebook" id="Sicon">
+              </a>
+              <a href="mailto:danielkwan6d16@gmail.com" >
+                  <img src="./styles/images/icon/Email.png" alt="Email" id="Sicon">
+              </a>
+          </div>
+      </div>
+    </footer>
+    <script src="./scripts/eventsShop.js"></script>
+    <script src="./scripts/validateShop.js"></script>
+    <script src="./scripts/darkmode.js"></script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+body{
+  font-family:'Lato', sans-serif;
+}
+
+table th,tr,td{
+    border: 1px solid;
+}
+
+* {
+    box-sizing:border-box;
+  }
+  
+.column {
+    float: left;
+    width: fit-content;
+    padding-inline: 35px;
+
+}
+  
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+main{
+    padding-top: 5px;
+    text-align: center;
+}
+
+section.recipe{
+    padding-top:5pc;
+    padding-bottom:5pc;
+}
+
+.recipes1{
+    width:100%;
+    height:auto
+}
+
+.recipes2{
+    width:20pc;
+    height:auto
+}
+
+.ingredients{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.descDiv{
+    width: 100%;
+}
+
+.desc{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.descText{
+    padding-left: 20%;
+
+}

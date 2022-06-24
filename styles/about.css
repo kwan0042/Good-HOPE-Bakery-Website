@@ -1,0 +1,33 @@
+.aboutimg{
+    width:50%
+}
+
+#formTitle{
+    margin: auto;
+    text-align:center;
+    padding-top:10px ;
+    padding-bottom:10px ;
+}
+
+#contactform{
+    font-family:'Lato', sans-serif;
+    font-weight: bolder;
+    width: 50%;
+    margin: auto;
+    padding-bottom:20px ;
+}
+
+
+input{
+    width: 100%;
+}
+
+fieldset{
+border-style:none;
+}
+
+.submit{
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+}

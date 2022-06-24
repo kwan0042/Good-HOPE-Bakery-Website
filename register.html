@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="">
+
+    <title>Good Hope Dessert</title>
+    <link rel="stylesheet" type="text/css" href="./styles/main.css">
+    <link rel="stylesheet" type="text/css" href="./styles/register.css">
+    <script src="./scripts/menu.js"></script>
+</head>
+<body>
+    <header>
+      <button class="mode" type="mode"><img id="buttonImg" src="./styles/images/icon/modebutton-01.png"></button>
+        <div class="topnav">
+          <a></a>
+          <div id="myLinks">
+            <a href="index.html">Home</a>
+              <a href="about.html">About</a>
+              <a href="shop.html">Shop</a>
+              <a href="workshop.html">Workshop</a>
+              <a href="recipes.html">Recipes</a>
+          </div>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+          </a>
+       </div>  
+        <!-- Add cover photo here -->
+        <a href="index.html"><img class="cover" src="./styles/images/cover/logobk-01.png" alt="cover photo" ></a>   
+    </header>       
+    <nav>
+      <a id="navtext" href="index.html">Home</a>
+      <a id="navtext" href="about.html">About</a>
+      <a id="navtext" href="shop.html">Shop</a>
+      <a id="navtext" href="workshop.html">Workshop</a>
+      <a id="navtext" href="recipes.html">Recipes</a>
+    </nav>
+    <main id="mainMode">
+        <section>
+            <h1>Workshop Registration Form</h1>
+            <form action="" method="post" onsubmit="return validateForm();">
+              <fieldset class="name">
+                <div>
+                    <label>First Name *</label><br>
+                    <input type="text" id="fName" name="fName"><br>
+                    <span class="alert" id="fNameErr"></span>
+                </div>
+              </fieldset>
+              <fieldset class="name">
+                <div>
+                    <label>Last Name *</label><br>
+                    <input type="text" id="lName" name="lName"><br>
+                    <span class="alert" id="lNameErr"></span>
+                </div>
+              </fieldset>
+              <fieldset class="phone">
+                <div>
+                    <label>Phone*</label><br>
+                    <input type="text" id="lName" name="lName"><br>
+                    <span class="alert" id="lNameErr"></span>
+                </div>
+              </fieldset>
+              <fieldset class="email">
+                <div>
+                    <label>Email *</label><br>
+                    <input type="text" id="email" name="email"><br>
+                    <span class="alert" id="emailErr"></span>
+                </div>
+              </fieldset>
+              <fieldset>
+                <label for="workshop">Select a workshop: *</label><br>
+                <select name="workshop" id="cars">
+                  <option value="0">Select a workshop</option>
+                  <option value="workshop1">Workshop 1</option>
+                  <option value="workshop2">Workshop 2</option>
+                </select>
+                <br>
+                <span class="alert" id="workshopErr"></span>
+              </fieldset>
+              <fieldset>
+                <label for="workshop">Number of Participant: *</label><br>
+                <select name="participant" id="cars">
+                  <option value="0">Number of Participant</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                </select>
+                <br>
+                <span class="alert" id="participantErr"></span>
+              </fieldset>
+              <fieldset>
+                <label for="date">Birthday:</label><br>
+                <input type="date" id="date" name="date">
+                <br>
+                <span class="alert" id="dateErr"></span>
+              </fieldset>
+              
+              <input class="submit" type="submit" value="Submit">
+            </form>
+        </section>        
+    </main>
+    <footer>
+    <div id="socialDiv">
+        <div id="social-icons">
+            <a href="https://www.youtube.com/channel/UCFq83dAKJXiSjx-idIxQRyw" >  
+                <img src="./styles/images/icon/Youtube.png" alt="Youtube" id="Sicon">
+            </a>
+            <a href="https://www.instagram.com/daniel_kwan/" >  
+                <img src="./styles/images/icon/Ins.png" alt="Instagram" id="Sicon">
+            </a>
+            <a href="https://wa.me/85261982152" >  
+                <img src="./styles/images/icon/Whatsapp.png" alt="Whatsapp" id="Sicon">
+            </a>
+            <a href="https://www.facebook.com/DanielxKwan/" >  
+                <img src="./styles/images/icon/Facebook.png" alt="Facebook" id="Sicon">
+            </a>
+            <a href="mailto:danielkwan6d16@gmail.com" >  
+                <img src="./styles/images/icon/Email.png" alt="Email" id="Sicon">
+            </a>
+        </div>
+    </div>           
+    </footer>
+    <script src="./scripts/eventsReg.js"></script>
+    <script src="./scripts/validateReg.js"></script>
+    <script src="./scripts/darkmode.js"></script>
+</body>
+</html>

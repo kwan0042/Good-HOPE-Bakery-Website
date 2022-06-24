@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="">
+
+    <title>Good Hope Dessert</title>
+    <link rel="stylesheet" type="text/css" href="./styles/main.css">
+    <link rel="stylesheet" type="text/css" href="./styles/about.css">
+    <script src="./scripts/menu.js"></script>
+</head>
+<body>
+    <header>
+      <button class="mode" type="mode"><img id="buttonImg" src="./styles/images/icon/modebutton-01.png"></button>
+      <div class="topnav">
+          <a></a>
+          <div id="myLinks">
+            <a href="index.html">Home</a>
+              <a href="about.html">About</a>
+              <a href="shop.html">Shop</a>
+              <a href="workshop.html">Workshop</a>
+              <a href="recipes.html">Recipes</a>
+          </div>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+          </a>
+      </div>  
+      <!-- Add cover photo here -->
+      <a href="index.html"><img class="cover" src="./styles/images/cover/logobk-01.png" alt="cover photo" ></a>      
+    </header>     
+    <nav>
+      <a id="navtext" href="index.html">Home</a>
+        <a id="navtext" href="about.html">About</a>
+        <a id="navtext" href="shop.html">Shop</a>
+        <a id="navtext" href="workshop.html">Workshop</a>
+        <a id="navtext" href="recipes.html">Recipes</a>
+    </nav>
+    <main id="mainMode">
+        <section>
+          <div id="title">
+            <h1>About us</h1>
+            <img class="aboutimg" src="./styles/images/about/1.jpg" alt="about" >
+            <br>
+            <p>
+              Good Hope Dessert specializes in bread made with organic whole grains and <br>
+              natural leavening, without added sugars or preservatives. All bread and <br>
+              pastries are made by hand, from scratch, using centuries-old techniques and <br>
+              pure ingredients.
+            </p>
+          </div>
+        </section>
+        <section id="contactform">
+          <h1 id="formTitle">Contact us</h1>
+          <form action="" method="post" onsubmit="return validateForm();">
+            <div id="divfield">
+              <fieldset class="name">
+                <div id="fNamed">
+                    <label>First Name*</label><br>
+                    <input type="text" id="fName" name="fName"><br>
+                    <span class="alert" id="fNameErr"></span>
+                </div><br>
+                <div id="lNamed">
+                  <label>Last Name*</label><br>
+                  <input type="text" id="lName" name="lName"><br>
+                  <span class="alert" id="lNameErr"></span>
+                </div>
+              </div>
+              </fieldset>
+              
+              <fieldset class="email">
+                <div>
+                    <label>Email*</label><br>
+                    <input type="text" id="email" name="email"><br>
+                    <span class="alert" id="emailErr"></span>
+                </div>
+              </fieldset>
+              <fieldset class="subject">
+                <div>
+                    <label>Subject*</label><br>
+                    <input type="text" id="subject" name="subject"><br>
+                    <span class="alert" id="subjectErr"></span>
+                </div>
+              </fieldset>
+              <fieldset class="message">
+                <div>
+                    <label>Message*</label><br>
+                    <input type="text" id="messages" name="messages"><br>
+                    <span class="alert" id="messagesErr"></span>
+                </div>
+              </fieldset>
+              <div id="submit">
+                <input class="submit" type="submit" value="Submit">
+              </div>
+            </div>
+          </form>
+        </section>        
+    </main>
+    
+    <script src="./scripts/eventsAbout.js"></script>
+    <script src="./scripts/validateAbout.js"></script>
+    <script src="./scripts/darkmode.js"></script>
+</body>
+<footer>
+  <div id="socialDiv">
+      <div id="social-icons">
+          <a href="https://www.youtube.com/channel/UCFq83dAKJXiSjx-idIxQRyw" >  
+              <img src="./styles/images/icon/Youtube.png" alt="Youtube" id="Sicon">
+          </a>
+          <a href="https://www.instagram.com/daniel_kwan/" >  
+              <img src="./styles/images/icon/Ins.png" alt="Instagram" id="Sicon">
+          </a>
+          <a href="https://wa.me/85261982152" >  
+              <img src="./styles/images/icon/Whatsapp.png" alt="Whatsapp" id="Sicon">
+          </a>
+          <a href="https://www.facebook.com/DanielxKwan/" >  
+              <img src="./styles/images/icon/Facebook.png" alt="Facebook" id="Sicon">
+          </a>
+          <a href="mailto:danielkwan6d16@gmail.com" >  
+              <img src="./styles/images/icon/Email.png" alt="Email" id="Sicon">
+          </a>
+      </div>
+  </div>       
+</footer>
+</html>

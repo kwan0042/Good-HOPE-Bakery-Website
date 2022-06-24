@@ -1,0 +1,75 @@
+table{
+    /* background-color: rgb(253, 251, 239); */
+    padding-bottom:10px ;
+}
+
+.blob {
+    overflow: hidden;
+    text-align:"center";
+}
+  
+div.blob:hover {
+    border: 1px solid #777;
+}
+
+img {
+    width: 30%;
+    height: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3{
+    width: fit-content;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th{
+    width: 20%;
+    border: 1px solid #777;
+    
+}
+
+td{
+    border-bottom: 0.5px solid rgb(253, 223, 223)
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+footer {
+    clear: both;
+}
+
+#products{
+    width: 100%;
+}
+
+#checkoutFrom{
+    width: 10%;
+    background-color: rgba(75, 91, 133, 0.644);
+    color: azure;
+}
+
+fieldset{
+    height: 100%;
+    border-style: none;
+}
+
+#items{
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+}
+
+#totalFd,.submit{
+    width: fit-content;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

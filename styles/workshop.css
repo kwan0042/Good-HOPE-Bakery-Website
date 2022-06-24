@@ -1,0 +1,45 @@
+body{
+    font-family:'Lato', sans-serif;
+}
+
+table th,tr,td{
+    border: 1px solid;
+}
+
+section.workshop{
+    text-align:center;
+}
+
+* {
+    box-sizing:border-box;
+  }
+  
+.column {
+    float: left;
+    width: 33.3%;
+    padding-inline: 20px;
+}
+  
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+    width: fit-content;
+}
+
+.workshop1{
+    width:100%;
+    height:auto
+}
+
+.workshop2{
+    width:100%;
+    height:auto
+}
+
+#form{
+    width:90%;
+    padding-left:7pc;
+    padding-bottom:2pc;
+    padding-top:1pc;
+}

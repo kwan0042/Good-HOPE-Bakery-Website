@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+
+body{
+    margin: 0%;
+    font-family:'Lato', sans-serif;
+}
+
+main{
+    background-color:rgb(247, 231, 231);
+}
+
+.cover{
+    width: 300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+nav {
+    text-align: center;
+    padding: 10px;
+}
+#navtext{
+    margin: 0 2rem;
+    font-family:'Lato', sans-serif;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+#title{
+    padding-top:10px ;
+    width: fit-content;
+    font-family:'Lato', sans-serif;
+    font-weight: bolder;
+    margin: auto;
+    text-align:center;
+    padding-bottom:10px ;
+}
+
+.mode{
+    overflow: hidden;
+    position: fixed;
+    display: block;
+    left:20px;
+    top: 10px;
+    width: 50px;
+    background-color:rgba(255, 255, 255, 0);
+    border: 0;
+
+}
+
+#buttonImg{
+    width: 100%;
+    height: 100%;
+}
+
+/* nav menu */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    display: block;
+    right:20px;
+    top: 10px;
+}
+.topnav #myLinks {
+display: none;
+}
+#myLinks{
+    width:200px;
+    font-family:'Lato', sans-serif;
+    
+}
+.topnav a {
+color: white;
+padding: 15px 15px;
+text-decoration: none;
+font-size: 17px;
+display: block;
+}
+.topnav a.icon {
+background-image:url(./images/cover/mean_nev-02.png);
+background-size: cover,cover;
+display: block;
+position: absolute;
+right: 0;
+top: 0;
+opacity:0.8 ;
+}
+.topnav a:hover {
+background-color: #ddd;
+color: black;
+}
+/* ///////////////// */
+
+
+footer{
+    padding-top: 10px;
+    position:relative;
+    background-size: cover;
+    font-family:'Lato', sans-serif;
+    font-weight: bolder;
+    height: 200px;
+    background-image: url(images/cover/1.jpeg);
+    background-position: 50% 50%; 
+}
+
+/* social icon */
+#socialDiv{
+    width: fit-content;
+    margin: auto;
+    padding: 20px;
+
+}
+#social-icons{
+    display:flex;
+    text-align: center;
+    
+}
+#Sicon{
+    width: 40px;
+    height: 40px;
+    margin: 0 1rem;
+}
+/* /////////////////////////////////////////////////////////////////////// */
+
+
+
+.dark-mode {
+    background-color:black;
+    color: white
+  }
+
+
+.alert{
+color: rgb(255, 153, 153);
+}
